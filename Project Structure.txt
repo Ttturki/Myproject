@@ -1,0 +1,8 @@
+endoscopy-dashboard/
+│
+├── index.html        # Main HTML file
+├── styles.css        # Separate CSS file
+├── script.js         # Separate JavaScript file
+├── images/           # Folder for images (optional)
+│   └── logo.png      # Example image (optional)
+└── README.md         # GitHub README file

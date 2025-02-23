@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endoscopy Unit Dashboard (Table Format)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">
+            <h1>Endoscopy Unit Dashboard</h1>
+            <!-- Optional: Add an image -->
+            <!-- <img src="images/logo.png" alt="Hospital Logo" class="logo"> -->
+        </div>
+
+        <div class="table-container">
+            <table id="patientTable">
+                <thead>
+                    <tr>
+                        <th>Patient Name</th>
+                        <th>File Number</th>
+                        <th>Arrival Time</th>
+                        <th>Procedure</th>
+                        <th>Physician</th>
+                        <th>Nurse</th>
+                        <th>Last Lab Result</th>
+                        <th>Current Location</th>
+                    </tr>
+                </thead>
+                <tbody id="patientBody">
+                    <!-- Patient rows will be added here via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
